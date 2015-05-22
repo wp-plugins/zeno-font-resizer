@@ -20,7 +20,7 @@ Which content is being resized, the resize steps and other options you can set o
 1. Upload the directory `zeno-font-resizer` to the `/wp-content/plugins/` directory or install the plugin directly with the 'Install' function in the 'Plugins' menu in WordPress.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Add the sidebar widget through the 'Appearance / Widgets' menu in WordPress.
-4. If you don't want to use the widget, you can use the tag `&lt;?php if(function_exists('zeno_font_resizer_place')) { zeno_font_resizer_place(); } ?&gt;` somewhere in your template.
+4. If you don't want to use the widget, you can use the code `<?php if(function_exists('zeno_font_resizer_place')) { zeno_font_resizer_place(); } ?>` somewhere in your template.
 5. Define which content should be resized on the 'Zeno Font Resizer' admin page (optional). If you are not familiar with html and css, select the body option (default). This would resize each content of your page.
 
 == Screenshots ==
@@ -36,15 +36,17 @@ Go to the admin page of the plugin and select your option. If you are not famili
 
 = How can I use the plugin without the widget? =
 Use this snippet of PHP code (in your theme or somewhere):
+
 	<php
-	if (function_exists('zeno_font_resizer_place')) {
-		zeno_font_resizer_place();
-	}
+		if (function_exists('zeno_font_resizer_place')) {
+			zeno_font_resizer_place();
+		}
 	?>
 
 = How can I change the color of the A's? =
 With CSS in your theme.
 Use something like:
+
 	li.zeno_font_resizer > a {
 		color: blue;
 	}
