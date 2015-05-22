@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-22 18:57+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: zeno-font-resizer.php:52 zeno-font-resizer.php:63 zeno-font-resizer.php:194
+msgid "Zeno Font Resizer"
+msgstr ""
+
+#: zeno-font-resizer.php:68
+msgid "Basic Settings"
+msgstr ""
+
+#: zeno-font-resizer.php:72
+msgid ""
+"Default setting, resize whole content in body tag (&lt;body&gt;All content "
+"of your site&lt;/body&gt;)."
+msgstr ""
+
+#: zeno-font-resizer.php:76
+msgid ""
+"Use div with id innerbody (&lt;div id=\"innerbody\"&gt;Resizable text&lt;/"
+"div&gt;)."
+msgstr ""
+
+#: zeno-font-resizer.php:81
+msgid ""
+"Use your own div id (&lt;div id=\"yourid\"&gt;Resizable text&lt;/div&gt;)."
+msgstr ""
+
+#: zeno-font-resizer.php:86
+msgid ""
+"Use your own element (For example: for a span with class \"bla\" (&lt;span "
+"class=\"bla\"&gt;Resizable text&lt;/span&gt;), enter the css definition, "
+"\"span.bla\" (without quotes))."
+msgstr ""
+
+#: zeno-font-resizer.php:91
+msgid "Widget Title"
+msgstr ""
+
+#: zeno-font-resizer.php:94
+msgid "Font Resizer"
+msgstr ""
+
+#: zeno-font-resizer.php:95
+msgid "Set the title for the widget."
+msgstr ""
+
+#: zeno-font-resizer.php:100
+msgid "Resize Steps"
+msgstr ""
+
+#: zeno-font-resizer.php:103
+msgid "px."
+msgstr ""
+
+#: zeno-font-resizer.php:104
+msgid "Set the resize steps in pixel (default: 1.6px)."
+msgstr ""
+
+#: zeno-font-resizer.php:109
+msgid "Resize Character"
+msgstr ""
+
+#: zeno-font-resizer.php:113
+msgid "Sets the letter to be displayed in the resizer in the website."
+msgstr ""
+
+#: zeno-font-resizer.php:118
+msgid "Cookie Settings"
+msgstr ""
+
+#: zeno-font-resizer.php:121
+msgid "days."
+msgstr ""
+
+#: zeno-font-resizer.php:122
+msgid "Set the cookie store time (default: 31 days)."
+msgstr ""
+
+#: zeno-font-resizer.php:130
+msgid "Save Changes"
+msgstr ""
+
+#: zeno-font-resizer.php:174
+msgid "Decrease font size"
+msgstr ""
+
+#: zeno-font-resizer.php:175
+msgid "Reset font size"
+msgstr ""
+
+#: zeno-font-resizer.php:176
+msgid "Increase font size"
+msgstr ""
+
+#: zeno-font-resizer.php:202
+msgid "Settings"
+msgstr ""
