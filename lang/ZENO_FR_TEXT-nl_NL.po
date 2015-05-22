@@ -1,0 +1,121 @@
+# nl_NL translation of Zeno Font Resizer.
+# Copyright (C) 2015-2015 Marcel Pol
+# This file is distributed under the same license as the Zeno Font Resizer package.
+# Marcel Pol <marcel@timelord.nl>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-22 18:57+0200\n"
+"PO-Revision-Date: 2015-05-22 19:00+0100\n"
+"Last-Translator: Marcel Pol <marcel@timelord.nl>\n"
+"Language-Team: NL\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+
+#: zeno-font-resizer.php:52 zeno-font-resizer.php:63 zeno-font-resizer.php:194
+msgid "Zeno Font Resizer"
+msgstr "Zeno Font Resizer"
+
+#: zeno-font-resizer.php:68
+msgid "Basic Settings"
+msgstr "Standaard Instellingen"
+
+#: zeno-font-resizer.php:72
+msgid ""
+"Default setting, resize whole content in body tag (&lt;body&gt;All content of "
+"your site&lt;/body&gt;)."
+msgstr ""
+"Standaard instelling, vergroot de gehele inhoud in het body element (&lt;body&gt;"
+"Alle inhoud van je website&lt;/body&gt;)."
+
+#: zeno-font-resizer.php:76
+msgid ""
+"Use div with id innerbody (&lt;div id=\"innerbody\"&gt;Resizable text&lt;/"
+"div&gt;)."
+msgstr ""
+"Gebruik div met id innerbody (&lt;div id=\"innerbody\"&gt;Aanpasbare tekst&lt;/"
+"div&gt;)."
+
+#: zeno-font-resizer.php:81
+msgid "Use your own div id (&lt;div id=\"yourid\"&gt;Resizable text&lt;/div&gt;)."
+msgstr ""
+"Gebruik je eigen div id (&lt;div id=\"jouwid\"&gt;Aanpasbare tekst&lt;/div&gt;)."
+
+#: zeno-font-resizer.php:86
+msgid ""
+"Use your own element (For example: for a span with class \"bla\" (&lt;span class="
+"\"bla\"&gt;Resizable text&lt;/span&gt;), enter the css definition, \"span.bla"
+"\" (without quotes))."
+msgstr ""
+"Gebruik je eigen element (Bijvoorbeeld: voor een span met de class \"bla\" (&lt;"
+"span class=\"bla\"&gt;Aanpasbare tekst&lt;/span&gt;), voer de volgende CSS "
+"definitie in, \"span.bla\" (zonder quotes))."
+
+#: zeno-font-resizer.php:91
+msgid "Widget Title"
+msgstr "Widget Titel"
+
+#: zeno-font-resizer.php:94
+msgid "Font Resizer"
+msgstr "Font Vergroter"
+
+#: zeno-font-resizer.php:95
+msgid "Set the title for the widget."
+msgstr "Stel de titel voor de widget in."
+
+#: zeno-font-resizer.php:100
+msgid "Resize Steps"
+msgstr "Stappen Grootte"
+
+#: zeno-font-resizer.php:103
+msgid "px."
+msgstr "px."
+
+#: zeno-font-resizer.php:104
+msgid "Set the resize steps in pixel (default: 1.6px)."
+msgstr "Stel de grootte van de stappen in (standaard 1,6px)."
+
+#: zeno-font-resizer.php:109
+msgid "Resize Character"
+msgstr "Vergroot Karakter"
+
+#: zeno-font-resizer.php:113
+msgid "Sets the letter to be displayed in the resizer in the website."
+msgstr "Stel de letter in die getoond wordt in de vergroter in de website."
+
+#: zeno-font-resizer.php:118
+msgid "Cookie Settings"
+msgstr "Cookie Instellingen"
+
+#: zeno-font-resizer.php:121
+msgid "days."
+msgstr "dagen."
+
+#: zeno-font-resizer.php:122
+msgid "Set the cookie store time (default: 31 days)."
+msgstr "Stel het verlopen van de cookie in (standaard 31 dagen)."
+
+#: zeno-font-resizer.php:130
+msgid "Save Changes"
+msgstr "Opslaan"
+
+#: zeno-font-resizer.php:174
+msgid "Decrease font size"
+msgstr "Verklein letters"
+
+#: zeno-font-resizer.php:175
+msgid "Reset font size"
+msgstr "Herstel lettergrootte"
+
+#: zeno-font-resizer.php:176
+msgid "Increase font size"
+msgstr "Vergroot letters"
+
+#: zeno-font-resizer.php:202
+msgid "Settings"
+msgstr "Instellingen"
