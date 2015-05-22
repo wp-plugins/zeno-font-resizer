@@ -25,8 +25,8 @@ Which content is being resized, the resize steps and other options you can set o
 
 == Screenshots ==
 
-1. Adding the widget.
-2. A productive example of the plugin.
+1. A productive example of the plugin.
+2. Adding the widget.
 3. Settings page.
 
 == Frequently Asked Questions ==
