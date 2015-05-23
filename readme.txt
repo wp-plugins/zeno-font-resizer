@@ -1,7 +1,7 @@
 === Zeno Font Resizer ===
 Contributors: mpol
 Donate link: http://www.timelord.nl
-Tags: font, size, increase, decrease, resizer, bigger, smaller, jquery, cookie, fonts, resize, change, wordpress, widget, plugin, sidebar
+Tags: font, text, size, increase, decrease, resizer, bigger, smaller, fonts, resize, change, widget, sidebar
 Requires at least: 2.7
 Tested up to: 4.2
 Stable tag: 1.3.0
@@ -12,8 +12,14 @@ Zeno Font Resizer allows the visitors of your website to change the font size of
 == Description ==
 
 This plugin allows you to give the visitors of your site the option to change the font size of your text.
-The plugin acts over jQuery and saves the settings in a cookie. So the visitor sees the same font size if they revisit your site.
-Which content is being resized, the resize steps and other options you can set on the admin page called "Zeno Font Resizer".
+
+Features:
+
+* Uses JavaScript and jQuery to set the fontsize.
+* Settings are saved in a cookie, so the visitor sees the same fontsize on a revisit.
+* Admin page to set which content is being resized, the resize steps and other options.
+* You can use the standard widget or you can use code to add to your theme.
+* Simple and Lightweight.
 
 == Installation ==
 
