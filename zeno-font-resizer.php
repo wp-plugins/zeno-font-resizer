@@ -4,7 +4,7 @@ Plugin Name: Zeno Font Resizer
 Plugin URI: http://zenoweb.nl
 Description: Zeno Font Resizer with jQuery and Cookies
 Author: Marcel Pol
-Version: 1.4.0
+Version: 1.4.1
 Author URI: http://zenoweb.nl/
 Text Domain: ZENO_FR_TEXT
 Domain Path: /lang/
@@ -30,7 +30,7 @@ Domain Path: /lang/
 
 
 // Plugin Version and Text-Domain.
-define('ZENO_FR_VER', '1.4.0');
+define('ZENO_FR_VER', '1.4.1');
 define('ZENO_FR_TEXT', 'ZENO_FR_TEXT');
 
 
@@ -143,9 +143,12 @@ add_action('wp_enqueue_scripts', 'zeno_font_resizer_enqueue');
 /*
  * Generate the font-resizer text on the frontend.
  * Used as template function for developers.
+ * Parameter: $echo, boolean:
+ *            - true: echo the template code (default).
+ *            - false: return the template code.
  */
-function zeno_font_resizer_place() {
-	echo '
+function zeno_font_resizer_place( $echo = true ) {
+	$html = '
 	<div class="zeno_font_resizer_container">
 		<p class="zeno_font_resizer" style="text-align: center; font-weight: bold;">
 			<span>
@@ -161,6 +164,11 @@ function zeno_font_resizer_place() {
 		</p>
 	</div>
 	';
+	if ( $echo == true ) {
+		echo $html;
+	} else {
+		return $html;
+	}
 }
 
 
