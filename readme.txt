@@ -1,6 +1,5 @@
 === Zeno Font Resizer ===
 Contributors: mpol
-Donate link: http://www.timelord.nl
 Tags: font, text, size, increase, decrease, resizer, bigger, smaller, fonts, resize, change, widget, sidebar, accessibility
 Requires at least: 2.7
 Tested up to: 4.2
