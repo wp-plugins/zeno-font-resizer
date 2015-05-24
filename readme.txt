@@ -4,7 +4,7 @@ Donate link: http://www.timelord.nl
 Tags: font, text, size, increase, decrease, resizer, bigger, smaller, fonts, resize, change, widget, sidebar, accessibility
 Requires at least: 2.7
 Tested up to: 4.2
-Stable tag: 1.3.0
+Stable tag: 1.4.0
 License: GPLv2
 
 Zeno Font Resizer allows the visitors of your website to change the font size of your text.
