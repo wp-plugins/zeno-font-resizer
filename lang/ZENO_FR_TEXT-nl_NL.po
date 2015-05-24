@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-22 18:57+0200\n"
-"PO-Revision-Date: 2015-05-22 19:00+0100\n"
+"POT-Creation-Date: 2015-05-24 12:06+0200\n"
+"PO-Revision-Date: 2015-05-24 12:08+0100\n"
 "Last-Translator: Marcel Pol <marcel@timelord.nl>\n"
 "Language-Team: NL\n"
 "Language: nl\n"
@@ -17,7 +17,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.7.6\n"
 
-#: zeno-font-resizer.php:52 zeno-font-resizer.php:63 zeno-font-resizer.php:194
+#: widget.php:12
+msgid "Displays options to change the font size."
+msgstr "Toont opties om de lettergrootte aan te passen."
+
+#: widget.php:22 widget.php:50
+msgid "Font Resizer"
+msgstr "Lettergrootte"
+
+#: widget.php:57
+msgid "Title:"
+msgstr "Titel:"
+
+#: zeno-font-resizer.php:52 zeno-font-resizer.php:63
 msgid "Zeno Font Resizer"
 msgstr "Zeno Font Resizer"
 
@@ -57,65 +69,59 @@ msgstr ""
 "definitie in, \"span.bla\" (zonder quotes))."
 
 #: zeno-font-resizer.php:91
-msgid "Widget Title"
-msgstr "Widget Titel"
-
-#: zeno-font-resizer.php:94
-msgid "Font Resizer"
-msgstr "Font Vergroter"
-
-#: zeno-font-resizer.php:95
-msgid "Set the title for the widget."
-msgstr "Stel de titel voor de widget in."
-
-#: zeno-font-resizer.php:100
 msgid "Resize Steps"
 msgstr "Stappen Grootte"
 
-#: zeno-font-resizer.php:103
+#: zeno-font-resizer.php:94
 msgid "px."
 msgstr "px."
 
-#: zeno-font-resizer.php:104
+#: zeno-font-resizer.php:95
 msgid "Set the resize steps in pixel (default: 1.6px)."
 msgstr "Stel de grootte van de stappen in (standaard 1,6px)."
 
-#: zeno-font-resizer.php:109
+#: zeno-font-resizer.php:100
 msgid "Resize Character"
-msgstr "Vergroot Karakter"
+msgstr "Karakter"
 
-#: zeno-font-resizer.php:113
+#: zeno-font-resizer.php:104
 msgid "Sets the letter to be displayed in the resizer in the website."
 msgstr "Stel de letter in die getoond wordt in de vergroter in de website."
 
-#: zeno-font-resizer.php:118
+#: zeno-font-resizer.php:109
 msgid "Cookie Settings"
 msgstr "Cookie Instellingen"
 
-#: zeno-font-resizer.php:121
+#: zeno-font-resizer.php:112
 msgid "days."
 msgstr "dagen."
 
-#: zeno-font-resizer.php:122
+#: zeno-font-resizer.php:113
 msgid "Set the cookie store time (default: 31 days)."
 msgstr "Stel het verlopen van de cookie in (standaard 31 dagen)."
 
-#: zeno-font-resizer.php:130
+#: zeno-font-resizer.php:121
 msgid "Save Changes"
 msgstr "Opslaan"
 
-#: zeno-font-resizer.php:174
+#: zeno-font-resizer.php:152
 msgid "Decrease font size"
 msgstr "Verklein letters"
 
-#: zeno-font-resizer.php:175
+#: zeno-font-resizer.php:153
 msgid "Reset font size"
 msgstr "Herstel lettergrootte"
 
-#: zeno-font-resizer.php:176
+#: zeno-font-resizer.php:154
 msgid "Increase font size"
 msgstr "Vergroot letters"
 
-#: zeno-font-resizer.php:202
+#: zeno-font-resizer.php:172
 msgid "Settings"
 msgstr "Instellingen"
+
+#~ msgid "Widget Title"
+#~ msgstr "Widget Titel"
+
+#~ msgid "Set the title for the widget."
+#~ msgstr "Stel de titel voor de widget in."

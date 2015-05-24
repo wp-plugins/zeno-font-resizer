@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-22 18:57+0200\n"
+"POT-Creation-Date: 2015-05-24 12:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,19 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: zeno-font-resizer.php:52 zeno-font-resizer.php:63 zeno-font-resizer.php:194
+#: widget.php:12
+msgid "Displays options to change the font size."
+msgstr ""
+
+#: widget.php:22 widget.php:50
+msgid "Font Resizer"
+msgstr ""
+
+#: widget.php:57
+msgid "Title:"
+msgstr ""
+
+#: zeno-font-resizer.php:52 zeno-font-resizer.php:63
 msgid "Zeno Font Resizer"
 msgstr ""
 
@@ -50,65 +62,53 @@ msgid ""
 msgstr ""
 
 #: zeno-font-resizer.php:91
-msgid "Widget Title"
-msgstr ""
-
-#: zeno-font-resizer.php:94
-msgid "Font Resizer"
-msgstr ""
-
-#: zeno-font-resizer.php:95
-msgid "Set the title for the widget."
-msgstr ""
-
-#: zeno-font-resizer.php:100
 msgid "Resize Steps"
 msgstr ""
 
-#: zeno-font-resizer.php:103
+#: zeno-font-resizer.php:94
 msgid "px."
 msgstr ""
 
-#: zeno-font-resizer.php:104
+#: zeno-font-resizer.php:95
 msgid "Set the resize steps in pixel (default: 1.6px)."
 msgstr ""
 
-#: zeno-font-resizer.php:109
+#: zeno-font-resizer.php:100
 msgid "Resize Character"
 msgstr ""
 
-#: zeno-font-resizer.php:113
+#: zeno-font-resizer.php:104
 msgid "Sets the letter to be displayed in the resizer in the website."
 msgstr ""
 
-#: zeno-font-resizer.php:118
+#: zeno-font-resizer.php:109
 msgid "Cookie Settings"
 msgstr ""
 
-#: zeno-font-resizer.php:121
+#: zeno-font-resizer.php:112
 msgid "days."
 msgstr ""
 
-#: zeno-font-resizer.php:122
+#: zeno-font-resizer.php:113
 msgid "Set the cookie store time (default: 31 days)."
 msgstr ""
 
-#: zeno-font-resizer.php:130
+#: zeno-font-resizer.php:121
 msgid "Save Changes"
 msgstr ""
 
-#: zeno-font-resizer.php:174
+#: zeno-font-resizer.php:152
 msgid "Decrease font size"
 msgstr ""
 
-#: zeno-font-resizer.php:175
+#: zeno-font-resizer.php:153
 msgid "Reset font size"
 msgstr ""
 
-#: zeno-font-resizer.php:176
+#: zeno-font-resizer.php:154
 msgid "Increase font size"
 msgstr ""
 
-#: zeno-font-resizer.php:202
+#: zeno-font-resizer.php:172
 msgid "Settings"
 msgstr ""

@@ -65,6 +65,7 @@ Not yet, no. But feel free to contact me if you have a question.
 = 1.4.0 =
 * 2015-05-24
 * Redo widget properly.
+* Update pot, nl_NL.
 
 = 1.3.0 =
 * 2015-05-22
