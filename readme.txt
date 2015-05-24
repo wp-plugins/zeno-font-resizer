@@ -1,7 +1,7 @@
 === Zeno Font Resizer ===
 Contributors: mpol
 Donate link: http://www.timelord.nl
-Tags: font, text, size, increase, decrease, resizer, bigger, smaller, fonts, resize, change, widget, sidebar
+Tags: font, text, size, increase, decrease, resizer, bigger, smaller, fonts, resize, change, widget, sidebar, accessibility
 Requires at least: 2.7
 Tested up to: 4.2
 Stable tag: 1.3.0
@@ -53,7 +53,7 @@ Use this snippet of PHP code (in your theme or somewhere):
 With CSS in your theme.
 Use something like:
 
-	li.zeno_font_resizer > a {
+	p.zeno_font_resizer > a {
 		color: blue;
 	}
 
@@ -61,6 +61,10 @@ Use something like:
 Not yet, no. But feel free to contact me if you have a question.
 
 == Changelog ==
+
+= 1.4.0 =
+* 2015-05-24
+* Redo widget properly.
 
 = 1.3.0 =
 * 2015-05-22

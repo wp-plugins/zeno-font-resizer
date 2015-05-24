@@ -4,7 +4,7 @@ Plugin Name: Zeno Font Resizer
 Plugin URI: http://zenoweb.nl
 Description: Zeno Font Resizer with jQuery and Cookies
 Author: Marcel Pol
-Version: 1.3.0
+Version: 1.4.0
 Author URI: http://zenoweb.nl/
 Text Domain: ZENO_FR_TEXT
 Domain Path: /lang/
@@ -30,7 +30,7 @@ Domain Path: /lang/
 
 
 // Plugin Version and Text-Domain.
-define('ZENO_FR_VER', '1.3.0');
+define('ZENO_FR_VER', '1.4.0');
 define('ZENO_FR_TEXT', 'ZENO_FR_TEXT');
 
 
@@ -88,15 +88,6 @@ function zeno_font_resizer_admin_page() {
 					</td>
 				</tr>
 				<tr valig="top">
-					<th scope="row"><?php _e( 'Widget Title', ZENO_FR_TEXT ); ?></th>
-					<td>
-						<label for="zeno_font_resizer_title">
-							<input type="text" name="zeno_font_resizer_title" value="<?php echo get_option('zeno_font_resizer_title', __('Font Resizer', ZENO_FR_TEXT) ); ?>" style="width: 8em"><br />
-							<?php _e( 'Set the title for the widget.', ZENO_FR_TEXT ); ?>
-						</label>
-					</td>
-				</tr>
-				<tr valig="top">
 					<th scope="row"><?php _e( 'Resize Steps', ZENO_FR_TEXT ); ?></th>
 					<td>
 						<label for="zeno_font_resizer_resizeSteps">
@@ -125,7 +116,7 @@ function zeno_font_resizer_admin_page() {
 				</tr>
 			</table>
 			<input type="hidden" name="action" value="update" />
-			<input type="hidden" name="page_options" value="zeno_font_resizer,zeno_font_resizer_ownid,zeno_font_resizer_ownelement,zeno_font_resizer_title,zeno_font_resizer_resizeSteps,zeno_font_resizer_letter,zeno_font_resizer_cookieTime" />
+			<input type="hidden" name="page_options" value="zeno_font_resizer,zeno_font_resizer_ownid,zeno_font_resizer_ownelement,zeno_font_resizer_resizeSteps,zeno_font_resizer_letter,zeno_font_resizer_cookieTime" />
 			<p class="submit">
 				<input type="submit" class="button-primary" value="<?php esc_attr_e('Save Changes', ZENO_FR_TEXT) ?>" />
 			</p>
@@ -151,47 +142,26 @@ add_action('wp_enqueue_scripts', 'zeno_font_resizer_enqueue');
 
 /*
  * Generate the font-resizer text on the frontend.
+ * Used as template function for developers.
  */
 function zeno_font_resizer_place() {
-	echo '<ul class="zeno_font_resizer_ul">';
-	zeno_font_resizer_place_li( array() );
-	echo '</ul>';
-}
-
-
-function zeno_font_resizer_place_li($args) {
-	extract($args);
-	$title = get_option('zeno_font_resizer_title', "");
-	if ( isset($before_title) && $title ) {
-		$title = $before_title . $title . $after_title;
-	} else {
-		$title = ""; // Only the widget uses a header.
-	}
 	echo '
-	<li class="zeno_font_resizer" style="list-style: none;">
-		' . $title . '
-		<p style="text-align: center; font-weight: bold;">
-			<a href="#" class="zeno_font_resizer_minus" title="' . esc_attr__( 'Decrease font size', ZENO_FR_TEXT ) . '" style="font-size: 0.7em;">' . get_option('zeno_font_resizer_letter') . '</a>
-			<a href="#" class="zeno_font_resizer_reset" title="' . esc_attr__( 'Reset font size', ZENO_FR_TEXT ) . '">' . get_option('zeno_font_resizer_letter') . '</a>
-			<a href="#" class="zeno_font_resizer_add" title="' . esc_attr__( 'Increase font size', ZENO_FR_TEXT ) . '" style="font-size: 1.2em;">' . get_option('zeno_font_resizer_letter') . '</a>
+	<div class="zeno_font_resizer_container">
+		<p class="zeno_font_resizer" style="text-align: center; font-weight: bold;">
+			<span>
+				<a href="#" class="zeno_font_resizer_minus" title="' . esc_attr__( 'Decrease font size', ZENO_FR_TEXT ) . '" style="font-size: 0.7em;">' . get_option('zeno_font_resizer_letter') . '</a>
+				<a href="#" class="zeno_font_resizer_reset" title="' . esc_attr__( 'Reset font size', ZENO_FR_TEXT ) . '">' . get_option('zeno_font_resizer_letter') . '</a>
+				<a href="#" class="zeno_font_resizer_add" title="' . esc_attr__( 'Increase font size', ZENO_FR_TEXT ) . '" style="font-size: 1.2em;">' . get_option('zeno_font_resizer_letter') . '</a>
+			</span>
+			<input type="hidden" id="zeno_font_resizer_value" value="' . get_option('zeno_font_resizer') . '" />
+			<input type="hidden" id="zeno_font_resizer_ownid" value="' . get_option('zeno_font_resizer_ownid') . '" />
+			<input type="hidden" id="zeno_font_resizer_ownelement" value="' . get_option('zeno_font_resizer_ownelement') . '" />
+			<input type="hidden" id="zeno_font_resizer_resizeSteps" value="' . get_option('zeno_font_resizer_resizeSteps') . '" />
+			<input type="hidden" id="zeno_font_resizer_cookieTime" value="' . get_option('zeno_font_resizer_cookieTime') . '" />
 		</p>
-		<input type="hidden" id="zeno_font_resizer_value" value="' . get_option('zeno_font_resizer') . '" />
-		<input type="hidden" id="zeno_font_resizer_ownid" value="' . get_option('zeno_font_resizer_ownid') . '" />
-		<input type="hidden" id="zeno_font_resizer_ownelement" value="' . get_option('zeno_font_resizer_ownelement') . '" />
-		<input type="hidden" id="zeno_font_resizer_resizeSteps" value="' . get_option('zeno_font_resizer_resizeSteps') . '" />
-		<input type="hidden" id="zeno_font_resizer_cookieTime" value="' . get_option('zeno_font_resizer_cookieTime') . '" />
-	</li>
+	</div>
 	';
 }
-
-
-/*
- *  Creating the Widget
- */
-function zeno_font_resizer_widget($args) {
-	zeno_font_resizer_place_li($args);
-}
-wp_register_sidebar_widget( 'zeno_font_resizer_widget', __('Zeno Font Resizer', ZENO_FR_TEXT), 'zeno_font_resizer_widget' );
 
 
 /*
@@ -204,7 +174,6 @@ function zeno_font_resizer_links( $links, $file ) {
 	return $links;
 }
 add_filter( 'plugin_action_links', 'zeno_font_resizer_links', 10, 2 );
-
 
 
 /*
@@ -223,11 +192,14 @@ function zeno_font_resizer_uninstaller() {
 	delete_option('zeno_font_resizer');
 	delete_option('zeno_font_resizer_ownid');
 	delete_option('zeno_font_resizer_ownelement');
-	delete_option('zeno_font_resizer_title');
 	delete_option('zeno_font_resizer_resizeSteps');
 	delete_option('zeno_font_resizer_letter');
 	delete_option('zeno_font_resizer_cookieTime');
 }
 register_uninstall_hook( __FILE__, 'zeno_font_resizer_uninstaller' );
+
+
+/* Load the widget */
+include('widget.php');
 
 
