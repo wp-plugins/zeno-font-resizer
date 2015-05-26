@@ -71,6 +71,10 @@ Not yet, no. But feel free to contact me if you have a question.
 
 == Changelog ==
 
+= 1.4.2 =
+* 2015-05-26
+* Add 'return false' on click event.
+
 = 1.4.1 =
 * 2015-05-24
 * Add $echo parameter to template code.

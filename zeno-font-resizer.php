@@ -4,7 +4,7 @@ Plugin Name: Zeno Font Resizer
 Plugin URI: http://zenoweb.nl
 Description: Zeno Font Resizer with jQuery and Cookies
 Author: Marcel Pol
-Version: 1.4.1
+Version: 1.4.2
 Author URI: http://zenoweb.nl/
 Text Domain: ZENO_FR_TEXT
 Domain Path: /lang/
@@ -30,7 +30,7 @@ Domain Path: /lang/
 
 
 // Plugin Version and Text-Domain.
-define('ZENO_FR_VER', '1.4.1');
+define('ZENO_FR_VER', '1.4.2');
 define('ZENO_FR_TEXT', 'ZENO_FR_TEXT');
 
 

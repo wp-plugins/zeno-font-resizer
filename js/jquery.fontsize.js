@@ -34,6 +34,7 @@ jQuery.fn.zeno_font_resizer_manager = function () {
 		if (newFontSize > maxFontSize) { return; }
 		jQuery(zeno_font_resizer_element + "").css("font-size", newFontSize + "px");
 		Cookies.set('fontSize', newFontSize, {expires: parseInt(zeno_font_resizer_cookieTime), path: '/'});
+		return false;
 	});
 	jQuery('.zeno_font_resizer_minus').click(function() {
 		var newFontSize = parseFloat(jQuery(zeno_font_resizer_element + "").css("font-size"))
@@ -42,10 +43,12 @@ jQuery.fn.zeno_font_resizer_manager = function () {
 		if (newFontSize < minFontSize) { return; }
 		jQuery("" + zeno_font_resizer_element + "").css("font-size", newFontSize + "px");
 		Cookies.set('fontSize', newFontSize, {expires: parseInt(zeno_font_resizer_cookieTime), path: '/'});
+		return false;
 	});
 	jQuery('.zeno_font_resizer_reset').click(function() {
 		jQuery("" + zeno_font_resizer_element + "").css("font-size", startFontSize);
 		Cookies.set('fontSize', startFontSize, {expires: parseInt(zeno_font_resizer_cookieTime), path: '/'});
+		return false;
 	});
 }
 
