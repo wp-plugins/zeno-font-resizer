@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-24 12:06+0200\n"
-"PO-Revision-Date: 2015-05-24 12:08+0100\n"
+"POT-Creation-Date: 2015-05-31 14:53+0200\n"
+"PO-Revision-Date: 2015-05-31 14:54+0100\n"
 "Last-Translator: Marcel Pol <marcel@timelord.nl>\n"
 "Language-Team: NL\n"
 "Language: nl\n"
@@ -104,19 +104,83 @@ msgstr "Stel het verlopen van de cookie in (standaard 31 dagen)."
 msgid "Save Changes"
 msgstr "Opslaan"
 
-#: zeno-font-resizer.php:152
+#: zeno-font-resizer.php:125
+msgid "About Zeno Font Resizer"
+msgstr "Over Zeno Font Resizer"
+
+#: zeno-font-resizer.php:128
+msgid "This plugin is being maintained by Marcel Pol from"
+msgstr "Deze plugin wordt onderhouden door Marcel Pol van"
+
+#: zeno-font-resizer.php:132
+msgid "Review this plugin."
+msgstr "Review deze plugin."
+
+#: zeno-font-resizer.php:133
+msgid "If this plugin has any value to you, then please leave a review at"
+msgstr "Als deze plugin enige waarde voor je heeft, laat dan een review achter op"
+
+#: zeno-font-resizer.php:134
+msgid "The plugin page at wordpress.org."
+msgstr "de plugin pagina op wordpress.org."
+
+#: zeno-font-resizer.php:135
+msgid "the plugin page at wordpress.org"
+msgstr "de plugin pagina op wordpress.org"
+
+#: zeno-font-resizer.php:138
+msgid "Donate to the EFF."
+msgstr "Doneren aan de EFF."
+
+#: zeno-font-resizer.php:139
+msgid ""
+"The Electronic Frontier Foundation is one of the few organisations that wants to "
+"keep the internet a free place."
+msgstr ""
+"De Electronic Frontier Foundation is één van de weinige organisaties die het "
+"internet vrij wil houden."
+
+#: zeno-font-resizer.php:140
+msgid "Please donate to the EFF."
+msgstr "Doneer svp. aan de EFF."
+
+#: zeno-font-resizer.php:142 zeno-font-resizer.php:144
+msgid "Donate to the maintainer."
+msgstr "Doneren aan de ontwikkelaar."
+
+#: zeno-font-resizer.php:143
+msgid ""
+"If you rather want to donate to the maintainer of the plugin, you can donate "
+"through PayPal."
+msgstr ""
+"Als je liever aan de ontwikkelaar van de plugin doneert, kun je via PayPal "
+"doneren."
+
+#: zeno-font-resizer.php:144
+msgid "Donate through"
+msgstr "Doneer via"
+
+#: zeno-font-resizer.php:144
+msgid "PayPal"
+msgstr "PayPal"
+
+#: zeno-font-resizer.php:145
+msgid "to"
+msgstr "aan"
+
+#: zeno-font-resizer.php:181
 msgid "Decrease font size"
 msgstr "Verklein letters"
 
-#: zeno-font-resizer.php:153
+#: zeno-font-resizer.php:182
 msgid "Reset font size"
 msgstr "Herstel lettergrootte"
 
-#: zeno-font-resizer.php:154
+#: zeno-font-resizer.php:183
 msgid "Increase font size"
 msgstr "Vergroot letters"
 
-#: zeno-font-resizer.php:172
+#: zeno-font-resizer.php:206
 msgid "Settings"
 msgstr "Instellingen"
 
