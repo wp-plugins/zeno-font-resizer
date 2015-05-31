@@ -4,7 +4,7 @@ Plugin Name: Zeno Font Resizer
 Plugin URI: http://zenoweb.nl
 Description: Zeno Font Resizer with jQuery and Cookies
 Author: Marcel Pol
-Version: 1.4.2
+Version: 1.4.3
 Author URI: http://zenoweb.nl/
 Text Domain: ZENO_FR_TEXT
 Domain Path: /lang/
@@ -30,7 +30,7 @@ Domain Path: /lang/
 
 
 // Plugin Version and Text-Domain.
-define('ZENO_FR_VER', '1.4.2');
+define('ZENO_FR_VER', '1.4.3');
 define('ZENO_FR_TEXT', 'ZENO_FR_TEXT');
 
 
@@ -121,6 +121,32 @@ function zeno_font_resizer_admin_page() {
 				<input type="submit" class="button-primary" value="<?php esc_attr_e('Save Changes', ZENO_FR_TEXT) ?>" />
 			</p>
 		</form>
+
+		<h2><?php _e('About Zeno Font Resizer', ZENO_FR_TEXT); ?></h2>
+		<div id="poststuff" class="postbox">
+			<div class="widget" style="padding: 10px 20px;">
+				<p><?php _e('This plugin is being maintained by Marcel Pol from', ZENO_FR_TEXT); ?>
+					<a href="http://zenoweb.nl" target="_blank" title="ZenoWeb">ZenoWeb</a>.
+				</p>
+
+				<h3><?php _e('Review this plugin.', ZENO_FR_TEXT); ?></h3>
+				<p><?php _e('If this plugin has any value to you, then please leave a review at', ZENO_FR_TEXT); ?>
+					<a href="https://wordpress.org/support/view/plugin-reviews/zeno-font-resizer" target="_blank" title="<?php esc_attr_e('The plugin page at wordpress.org.', ZENO_FR_TEXT); ?>">
+						<?php _e('the plugin page at wordpress.org', ZENO_FR_TEXT); ?></a>.
+				</p>
+
+				<h3><?php _e('Donate to the EFF.', ZENO_FR_TEXT); ?></h3>
+				<p><?php _e('The Electronic Frontier Foundation is one of the few organisations that wants to keep the internet a free place.', ZENO_FR_TEXT); ?></p>
+				<p><a href="https://supporters.eff.org/donate" target="_blank" title="<?php esc_attr_e('Please donate to the EFF.', ZENO_FR_TEXT); ?>"><?php _e('Please donate to the EFF.', ZENO_FR_TEXT); ?></a></p>
+
+				<h3><?php _e('Donate to the maintainer.', ZENO_FR_TEXT); ?></h3>
+				<p><?php _e('If you rather want to donate to the maintainer of the plugin, you can donate through PayPal.', ZENO_FR_TEXT); ?></p>
+				<p><?php _e('Donate through', ZENO_FR_TEXT); ?> <a href="https://www.paypal.com" target="_blank" title="<?php esc_attr_e('Donate to the maintainer.', ZENO_FR_TEXT); ?>"><?php _e('PayPal', ZENO_FR_TEXT); ?></a>
+					<?php _e('to', ZENO_FR_TEXT); ?> marcel@timelord.nl.
+				</p>
+			</div>
+		</div>
+
 	</div>
 	<?php
 }

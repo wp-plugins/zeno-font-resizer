@@ -71,6 +71,11 @@ Not yet, no. But feel free to contact me if you have a question.
 
 == Changelog ==
 
+= 1.4.3 =
+* 2015-05-31
+* Add About text.
+* Update pot and nl_NL.
+
 = 1.4.2 =
 * 2015-05-26
 * Add 'return false' on click event.
