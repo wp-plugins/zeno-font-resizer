@@ -39,6 +39,11 @@ Features:
 = How can I activate the function of the plugin? =
 Go to the admin page of the plugin and select your option. If you are not familiar with html and css, select the body option (default). This would resize each content of your page.
 
+= I click the resizer, but (some of) my fonts don't change in size. =
+
+The plugin expects the CSS of your theme to be set up in a certain way. When you have a fixed font-size like 14px for your menu or content elements, it will not be affected by the plugin.
+When you use a percentage, like 100% or 124%, it will follow (inherit) the font-size set on the body element.
+
 = How can I use the plugin without the widget? =
 Use this snippet of PHP code (in your theme or somewhere):
 
