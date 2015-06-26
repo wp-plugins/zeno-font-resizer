@@ -1,6 +1,6 @@
 === Zeno Font Resizer ===
 Contributors: mpol
-Tags: font, text, size, increase, decrease, resizer, bigger, smaller, fonts, resize, change, widget, sidebar, accessibility
+Tags: font, text, size, increase, decrease, resizer, bigger, smaller, fonts, resize, change, widget, sidebar, accessibility, a11y
 Requires at least: 2.7
 Tested up to: 4.2
 Stable tag: 1.4.3
