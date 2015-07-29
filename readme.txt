@@ -78,8 +78,6 @@ Use something like:
 		color: blue;
 	}
 
-= Are there more FAQ? =
-Not yet, no. But feel free to contact me if you have a question.
 
 == Changelog ==
 
