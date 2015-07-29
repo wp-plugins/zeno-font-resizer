@@ -41,7 +41,7 @@ Go to the admin page of the plugin and select your option. If you are not famili
 
 = I click the resizer, but (some of) my fonts don't change in size. =
 
-The plugin expects the CSS of your theme to be set up flexible. When you have a static font-size like 14px or 14pt for your menu or content elements, it will not be affected by the plugin. This way of using font-size is maybe pixel-perfect for the designer, but not accessible for the user.
+The plugin expects the CSS of your theme to be set up flexible. When you have a static font-size like 14px or 14pt for your menu or content elements, it will not be affected by the plugin. This way of using font-size is maybe pixel-perfect for the designer, but not accessible for the user, so you should only use it for design elements, like a text overlay for an image.
 
 When you use a percentage, like 100% or 124%, it is dynamic and will follow (inherit) the font-size of the parent (and so up).
 The same dynamic counts for setting in em.
