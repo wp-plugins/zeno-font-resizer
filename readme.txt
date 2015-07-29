@@ -66,7 +66,7 @@ You can use the parameter '$echo = false' and the function will return the html-
 	<php
 		if (function_exists('zeno_font_resizer_place')) {
 			$font_resizer = zeno_font_resizer_place( false );
-			// do stuff with $font-resizer...
+			// do stuff with $font_resizer...
 		}
 	?>
 
