@@ -44,6 +44,11 @@ Go to the admin page of the plugin and select your option. If you are not famili
 The plugin expects the CSS of your theme to be set up in a certain way. When you have a fixed font-size like 14px for your menu or content elements, it will not be affected by the plugin.
 When you use a percentage, like 100% or 124%, it will follow (inherit) the font-size set on the body element.
 
+= I use font-size in rem in my theme, what do I do? =
+
+The font-size in rem is relative to the font-size of the html element. So you can go to the Settingspage of this plugin,
+and set the html element as the element to change the font-size of. Now your rem elements should follow the resizing.
+
 = How can I use the plugin without the widget? =
 Use this snippet of PHP code (in your theme or somewhere):
 
