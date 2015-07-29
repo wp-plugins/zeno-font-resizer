@@ -42,7 +42,7 @@ Go to the admin page of the plugin and select your option. If you are not famili
 = I click the resizer, but (some of) my fonts don't change in size. =
 
 The plugin expects the CSS of your theme to be set up in a certain way. When you have a fixed font-size like 14px for your menu or content elements, it will not be affected by the plugin.
-When you use a percentage, like 100% or 124%, it will follow (inherit) the font-size set on the body element.
+When you use a percentage, like 100% or 124%, it will follow (inherit) the font-size of the parent (and so up).
 
 = I use font-size in rem in my theme, what do I do? =
 
