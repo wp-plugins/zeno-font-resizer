@@ -4,7 +4,7 @@ Plugin Name: Zeno Font Resizer
 Plugin URI: http://zenoweb.nl
 Description: Zeno Font Resizer with jQuery and Cookies
 Author: Marcel Pol
-Version: 1.4.3
+Version: 1.4.4
 Author URI: http://zenoweb.nl/
 Text Domain: ZENO_FR_TEXT
 Domain Path: /lang/
@@ -30,14 +30,14 @@ Domain Path: /lang/
 
 
 // Plugin Version and Text-Domain.
-define('ZENO_FR_VER', '1.4.3');
+define('ZENO_FR_VER', '1.4.4');
 define('ZENO_FR_TEXT', 'ZENO_FR_TEXT');
 
 
 /*
  * Add the options to WordPress if they don't exist.
  */
-add_option('zeno_font_resizer',             'body', '', 'yes');
+add_option('zeno_font_resizer',             'html', '', 'yes');
 add_option('zeno_font_resizer_ownid',       '',     '', 'yes');
 add_option('zeno_font_resizer_ownelement',  '',     '', 'yes');
 add_option('zeno_font_resizer_resizeSteps', '1.6',  '', 'no' );
@@ -68,8 +68,8 @@ function zeno_font_resizer_admin_page() {
 					<th scope="row"><?php _e( 'Basic Settings', ZENO_FR_TEXT ); ?></th>
 					<td>
 						<label>
-							<input type="radio" name="zeno_font_resizer" value="body" <?php if (get_option('zeno_font_resizer')=="body") echo "checked"; ?> />
-							<?php _e( 'Default setting, resize whole content in body tag (&lt;body&gt;All content of your site&lt;/body&gt;).', ZENO_FR_TEXT ); ?>
+							<input type="radio" name="zeno_font_resizer" value="html" <?php if (get_option('zeno_font_resizer')=="html") echo "checked"; ?> />
+							<?php _e( 'Default setting, resize whole content in html tag (&lt;html&gt;All content of your site&lt;/html&gt;).', ZENO_FR_TEXT ); ?>
 						</label><br />
 						<label>
 							<input type="radio" name="zeno_font_resizer" value="innerbody" <?php if (get_option('zeno_font_resizer')=="innerbody") echo "checked"; ?> />

@@ -26,7 +26,7 @@ Features:
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Add the sidebar widget through the 'Appearance / Widgets' menu in WordPress.
 4. If you don't want to use the widget, you can use the template code somewhere in your template. Please check the FAQ.
-5. Define which content should be resized on the 'Zeno Font Resizer' admin page (optional). If you are not familiar with html and css, select the body option (default). This would resize each content of your page.
+5. Define which content should be resized on the 'Zeno Font Resizer' admin page (optional). If you are not familiar with html and css, select the html option (default). This would resize all the content of your site.
 
 == Screenshots ==
 
@@ -37,11 +37,11 @@ Features:
 == Frequently Asked Questions ==
 
 = How can I activate the function of the plugin? =
-Go to the admin page of the plugin and select your option. If you are not familiar with html and css, select the body option (default). This would resize each content of your page.
+Go to the admin page of the plugin and select your option. If you are not familiar with html and css, select the html option (default). This would resize all the content of your site.
 
 = I click the resizer, but (some of) my fonts don't change in size. =
 
-The plugin expects the CSS of your theme to be set up flexible. When you have a static font-size like 14px or 14pt for your menu or content elements, it will not be affected by the plugin. This way of using font-size is maybe pixel-perfect for the designer, but not accessible for the user, so you should only use it for design elements, like a text overlay for an image.
+The plugin expects the CSS of your theme to be set up in a flexible way. When you have a static font-size like 14px or 14pt for your menu or content elements, this will not be affected by the plugin. This way of using font-size is maybe pixel-perfect for the designer, but not accessible for the user, so you should only use it for design elements, like a text overlay for an image.
 
 When you use a percentage, like 100% or 124%, it is dynamic and will follow (inherit) the font-size of the parent (and so up).
 The same dynamic counts for setting in em.
@@ -49,7 +49,7 @@ The same dynamic counts for setting in em.
 = I use font-size in rem in my theme, what do I do? =
 
 The font-size in rem is relative to the font-size of the root <html> element. So you can go to the Settingspage of this plugin,
-and set the html element as the element to change the font-size of. Now your rem elements should follow the resizing.
+and set the html element as the element to change the font-size of (default since 1.4.4). Now your rem elements should follow the resizing.
 
 = How can I use the plugin without the widget? =
 Use this snippet of PHP code (in your theme or somewhere):
@@ -80,6 +80,10 @@ Use something like:
 
 
 == Changelog ==
+
+= 1.4.4 =
+* 2015-07-30
+* Use 'html' as default element instead of 'body' for compatibility with rem sizes.
 
 = 1.4.3 =
 * 2015-05-31
