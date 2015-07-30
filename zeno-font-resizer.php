@@ -69,7 +69,7 @@ function zeno_font_resizer_admin_page() {
 					<td>
 						<label>
 							<input type="radio" name="zeno_font_resizer" value="html" <?php if (get_option('zeno_font_resizer')=="html") echo "checked"; ?> />
-							<?php _e( 'Default setting, resize whole content in html tag (&lt;html&gt;All content of your site&lt;/html&gt;).', ZENO_FR_TEXT ); ?>
+							<?php _e( 'Default setting, resize whole content in html element (&lt;html&gt;All content of your site&lt;/html&gt;).', ZENO_FR_TEXT ); ?>
 						</label><br />
 						<label>
 							<input type="radio" name="zeno_font_resizer" value="innerbody" <?php if (get_option('zeno_font_resizer')=="innerbody") echo "checked"; ?> />

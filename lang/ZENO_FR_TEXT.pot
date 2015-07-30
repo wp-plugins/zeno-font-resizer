@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-31 14:53+0200\n"
+"POT-Creation-Date: 2015-07-30 13:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,8 +39,8 @@ msgstr ""
 
 #: zeno-font-resizer.php:72
 msgid ""
-"Default setting, resize whole content in body tag (&lt;body&gt;All content "
-"of your site&lt;/body&gt;)."
+"Default setting, resize whole content in html element (&lt;html&gt;All "
+"content of your site&lt;/html&gt;)."
 msgstr ""
 
 #: zeno-font-resizer.php:76

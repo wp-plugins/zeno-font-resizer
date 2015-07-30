@@ -81,6 +81,10 @@ Use something like:
 
 == Changelog ==
 
+= 1.4.5 =
+* 2015-
+* Update pot, nl_NL.
+
 = 1.4.4 =
 * 2015-07-30
 * Use 'html' as default element instead of 'body' for compatibility with rem sizes.
