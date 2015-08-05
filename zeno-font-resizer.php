@@ -87,7 +87,7 @@ function zeno_font_resizer_admin_page() {
 						</label><br />
 					</td>
 				</tr>
-				<tr valig="top">
+				<tr valign="top">
 					<th scope="row"><?php _e( 'Resize Steps', ZENO_FR_TEXT ); ?></th>
 					<td>
 						<label for="zeno_font_resizer_resizeSteps">
@@ -96,7 +96,7 @@ function zeno_font_resizer_admin_page() {
 						</label>
 					</td>
 				</tr>
-				<tr valig="top">
+				<tr valign="top">
 					<th scope="row"><?php _e( 'Resize Character', ZENO_FR_TEXT ); ?></th>
 					<td>
 						<label for="zeno_font_resizer_letter">
@@ -105,7 +105,7 @@ function zeno_font_resizer_admin_page() {
 						</label>
 					</td>
 				</tr>
-				<tr valig="top">
+				<tr valign="top">
 					<th scope="row"><?php _e( 'Cookie Settings', ZENO_FR_TEXT ); ?></th>
 					<td>
 						<label for="zeno_font_resizer_cookieTime">
