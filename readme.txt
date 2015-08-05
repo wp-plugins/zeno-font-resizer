@@ -82,7 +82,8 @@ Use something like:
 == Changelog ==
 
 = 1.4.5 =
-* 2015-
+* 2015-08-05
+* Use h1 header on admin page.
 * Update pot, nl_NL.
 
 = 1.4.4 =
